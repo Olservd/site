@@ -1,0 +1,45 @@
+.slick-track {
+  padding: 0 0 30px 0;
+}
+
+.quotes_slider {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quotes {
+  max-width: 423px;
+}
+.quotes p {
+  margin: 0;
+  padding: 41px 50px 53px 50px;
+  background-color: aliceblue;
+}
+.quotes .quote_foto {
+  margin: -33px auto;
+}
+
+.slick-slide {
+  opacity: 0.5;
+}
+
+.slick-active.slick-current {
+  opacity: 1;
+}
+
+.container_quotes {
+  display: grid;
+  grid-template: 1fr/repeat(2, 1fr);
+  align-items: end;
+}
+.container_quotes .customers_quotes {
+  max-width: 333px;
+  margin: 0 132px 0 236px;
+}
+.container_quotes .customers_quotes h6 {
+  margin: 146px 0 31px 0;
+  text-transform: uppercase;
+}
+.container_quotes .customers_quotes p {
+  margin: 14px 0 146px 0;
+}
